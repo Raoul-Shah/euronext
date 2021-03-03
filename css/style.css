@@ -86,7 +86,7 @@ html {
     height: 625px;
     width: 100%;
     z-index: -1;
-    opacity: 0.89;
+    opacity: 0.88;
 }
 
 #home h1 {
@@ -102,11 +102,47 @@ html {
     font-family: 'Bree Serif', serif;
 }
 
+/* Service Section */
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 34px;
+    margin: 2px 6px;
+    border-radius: 28px;
+    background-color: #666565;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
 /* Utility Classes */
 
 .h-primary {
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
     padding: 12px;
+}
+
+#h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
 }
 
